@@ -1,8 +1,8 @@
-co/com/bancodeoccidente/supplyfactor/runners/AgregarEmpresaRunner.java
- co.com.bancodeoccidente.supplyfactor.runners.AgregarEmpresaRunner
-co/com/bancodeoccidente/supplyfactor/runners/AgregarProveedorRunner.java
- co.com.bancodeoccidente.supplyfactor.runners.AgregarProveedorRunner
 co/com/bancodeoccidente/supplyfactor/stepdefinitions/AgreagrEmpresaStepDefinitions.java
  co.com.bancodeoccidente.supplyfactor.stepdefinitions.AgreagrEmpresaStepDefinitions
+co/com/bancodeoccidente/supplyfactor/runners/AgregarProveedorRunner.java
+ co.com.bancodeoccidente.supplyfactor.runners.AgregarProveedorRunner
+co/com/bancodeoccidente/supplyfactor/runners/AgregarEmpresaRunner.java
+ co.com.bancodeoccidente.supplyfactor.runners.AgregarEmpresaRunner
 co/com/bancodeoccidente/supplyfactor/stepdefinitions/AgregarProveedorStepDefinitions.java
  co.com.bancodeoccidente.supplyfactor.stepdefinitions.AgregarProveedorStepDefinitions

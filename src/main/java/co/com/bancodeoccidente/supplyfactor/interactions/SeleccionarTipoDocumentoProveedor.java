@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Interaction;
+
 
 import java.util.List;
 

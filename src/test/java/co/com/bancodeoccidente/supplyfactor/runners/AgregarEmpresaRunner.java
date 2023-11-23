@@ -12,4 +12,5 @@ glue = "co.com.bancodeoccidente.supplyfactor.stepdefinitions",
 snippets = SnippetType.CAMELCASE)
 
 public class AgregarEmpresaRunner {
+
 }

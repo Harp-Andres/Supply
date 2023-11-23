@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Agregar proveedor" skipped="0" tests="1" time="43.87" timestamp="2023-03-03 03:45:31"><testcase name="Agregar proveedor"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Agregar proveedor" skipped="0" tests="1" time="16.62" timestamp="2023-11-23 11:23:35"><testcase name="Agregar proveedor"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+co.com.bancodeoccidente.supplyfactor.taks.AbrirElNavegador.performAs(AbrirElNavegador.java:14)&#13;
+co.com.bancodeoccidente.supplyfactor.stepdefinitions.AgreagrEmpresaStepDefinitions.ingreseALaPlataformaSupplyFactor(AgreagrEmpresaStepDefinitions.java:29)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
