@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="78b4ad9c88895d14179c27c720df6c46f0dfcdbb9c83c62a3408161e9eea4db1.html">Agregar Proveedor</a></span>
+                > <span class="truncate-60"><a
+                    href="29a896deba2e7bd9bf135cbd502125fe6da95c6a5a5236bfe6e6e52dfdb14000.html">Agregar proveedor </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-03-2023 15:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Agregar Proveedor </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Quiero agregar una empresa proveedora a la plataforma Supply Factor
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Ingresar a la plataforma de supply Factor y realizar la autenticacion de usuario
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="356dbaf9d860e0e7ae1545b2b7ebfa829024c486e7959a9a32cae619c9858b0d.html">Agregarproveedor
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Agregar proveedor
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9faca7fcf6a982110da8987178c2652f1eec306db119edefc95aa8a1c2c9048c.png" title=" Dado ingrese a la plataforma Supply Factor" width="1303"/>
+                <img src="9faca7fcf6a982110da8987178c2652f1eec306db119edefc95aa8a1c2c9048c.png" title=" Andres abrir el navegador" width="1303"/>
+                <img src="9faca7fcf6a982110da8987178c2652f1eec306db119edefc95aa8a1c2c9048c.png" title=" Andres opens the Pagina de inicio" width="1303"/>
+                <img src="9faca7fcf6a982110da8987178c2652f1eec306db119edefc95aa8a1c2c9048c.png" title=" Andres abrir el navegador (completed)" width="1303"/>
+                <img src="9faca7fcf6a982110da8987178c2652f1eec306db119edefc95aa8a1c2c9048c.png" title=" Dado ingrese a la plataforma Supply Factor (completed)" width="1303"/>
+                <img src="16988ba27261dd598d5286b7747ac230e97ea669692163f15bd0e50e0950a7a0.png" title=" Y realice la autenticacion con un usuario pagador que cuenta con permisos de crear proveedores" width="1303"/>
+                <img src="16988ba27261dd598d5286b7747ac230e97ea669692163f15bd0e50e0950a7a0.png" title=" Andres ingresar credenciales" width="1303"/>
+                <img src="16988ba27261dd598d5286b7747ac230e97ea669692163f15bd0e50e0950a7a0.png" title=" Andres enters 'EmpresaPayer01@yopmail.com' into ingrese el nombre de usuario" width="1303"/>
+                <img src="16988ba27261dd598d5286b7747ac230e97ea669692163f15bd0e50e0950a7a0.png" title=" Andres clicks on boton continuar" width="1303"/>
+                <img src="d05c4c9fb1f32affb4443ade49c2993f5b9e9e48acfb5bfda182d00dfccd6200.png" title=" Andres clicks on boton continuar (completed)" width="1303"/>
+                <img src="d05c4c9fb1f32affb4443ade49c2993f5b9e9e48acfb5bfda182d00dfccd6200.png" title=" Andres enters 'Pass1234*' into ingreso la contrase&ntilde;a" width="1303"/>
+                <img src="362ce4c8815d0788eb77dbf99a2f1a25c81811b444f75bc31dfd1d2cb881fec3.png" title=" Andres enters 'Pass1234*' into ingreso la contrase&ntilde;a (completed)" width="1303"/>
+                <img src="362ce4c8815d0788eb77dbf99a2f1a25c81811b444f75bc31dfd1d2cb881fec3.png" title=" Andres clicks on boton ingresar" width="1303"/>
+                <img src="2424889bf0b50e0f0d7078bd37c4180ac21858dc0014f8fba015db8f1efac875.png" title=" Andres clicks on boton ingresar (completed)" width="1303"/>
+                <img src="2424889bf0b50e0f0d7078bd37c4180ac21858dc0014f8fba015db8f1efac875.png" title=" Andres ingresar credenciales (completed)" width="1303"/>
+                <img src="18623cf0698571b485b106a46d2ec20d21b7fd2874df3adb301d4911ef98efa6.png" title=" Y realice la autenticacion con un usuario pagador que cuenta con permisos de crear proveedores (completed)" width="1303"/>
+                <img src="d02a0224ef2fd43a65f01a8d171d197507e15415f1a2e4a3e6160d202a4a0325.png" title=" Cuando ingrese al formulario agregar proveedor" width="1303"/>
+                <img src="d02a0224ef2fd43a65f01a8d171d197507e15415f1a2e4a3e6160d202a4a0325.png" title=" Andres ingresar formulario agregar proveedor" width="1303"/>
+                <img src="d02a0224ef2fd43a65f01a8d171d197507e15415f1a2e4a3e6160d202a4a0325.png" title=" Andres clicks on boton ingresar como pagador" width="1303"/>
+                <img src="d88ae8a37cbf2b1ba788c959cf9d614bee807d8b171753a5cab3d471af91680a.png" title=" Andres clicks on boton ingresar como pagador (completed)" width="1303"/>
+                <img src="a67ea5e67542caf3b30333993b09297ab49eb153e29d03c89629e0cdca28f9a6.png" title=" Andres clicks on boton agregar proveedor" width="1303"/>
+                <img src="f606fb388d34d5fe75154a72de4d11b8255ea0fbc06b79a92437c87e7613b792.png" title=" Andres clicks on boton agregar proveedor (completed)" width="1303"/>
+                <img src="f606fb388d34d5fe75154a72de4d11b8255ea0fbc06b79a92437c87e7613b792.png" title=" Andres ingresar formulario agregar proveedor (completed)" width="1303"/>
+                <img src="42e5050ff5816d52faaef14838ff6513df9f47f9e39e68e7ca37113e8eefe0a0.png" title=" Cuando ingrese al formulario agregar proveedor (completed)" width="1303"/>
+                <img src="2877edff82e62720077134086b6b33faaf708c0cf8787dc70424ae01e1a21f42.png" title=" Y diligencie el formulario de agregar proveedor" width="1303"/>
+                <img src="2877edff82e62720077134086b6b33faaf708c0cf8787dc70424ae01e1a21f42.png" title=" Andres diligenciar formulario agregar proveedor" width="1303"/>
+                <img src="2877edff82e62720077134086b6b33faaf708c0cf8787dc70424ae01e1a21f42.png" title=" Andres clicks on seleccionar tipo de documento del proveedor" width="1303"/>
+                <img src="3f0b15d2a099ff04969183f26b2396fbd411e38f82bf6fa31020a9769c1141c8.png" title=" Andres clicks on seleccionar tipo de documento del proveedor (completed)" width="1303"/>
+                <img src="3f0b15d2a099ff04969183f26b2396fbd411e38f82bf6fa31020a9769c1141c8.png" title=" Andres seleccionar tipo documento proveedor" width="1303"/>
+                <img src="fc34a4608759f3572b66ced4f930aaca3b2179f3e0b7f5a3b255470343728c69.png" title=" Andres seleccionar tipo documento proveedor (completed)" width="1303"/>
+                <img src="fc34a4608759f3572b66ced4f930aaca3b2179f3e0b7f5a3b255470343728c69.png" title=" Andres enters '254643546546' into ingresar numero de documento del proveedor" width="1303"/>
+                <img src="ea181f8e35586ab077dd47e7d566c41ccae1d0863ee41880a0a838ad8d810ef1.png" title=" Andres enters '254643546546' into ingresar numero de documento del proveedor (completed)" width="1303"/>
+                <img src="ea181f8e35586ab077dd47e7d566c41ccae1d0863ee41880a0a838ad8d810ef1.png" title=" Andres enters 'Proveedor Tesla' into ingresar la razon social del proveedor" width="1303"/>
+                <img src="c5e700105b497eefadb8188e9405a53f3dff87a566396fecddadf5785480e640.png" title=" Andres enters 'Proveedor Tesla' into ingresar la razon social del proveedor (completed)" width="1303"/>
+                <img src="c5e700105b497eefadb8188e9405a53f3dff87a566396fecddadf5785480e640.png" title=" Andres clicks on seleccionar campo de texto departamento" width="1303"/>
+                <img src="392e329861a9ebbcf0021c6a35ee2ad7c1b4bd27213fde94ec2f218db28a0081.png" title=" Andres clicks on seleccionar campo de texto departamento (completed)" width="1303"/>
+                <img src="392e329861a9ebbcf0021c6a35ee2ad7c1b4bd27213fde94ec2f218db28a0081.png" title=" Andres enters 'CAUCA' into seleccionar campo de texto departamento" width="1303"/>
+                <img src="3dd52c6ac1776744ab845d2c714937f5b1724617cce11ed5c8c737b99be13f36.png" title=" Andres enters 'CAUCA' into seleccionar campo de texto departamento (completed)" width="1303"/>
+                <img src="3dd52c6ac1776744ab845d2c714937f5b1724617cce11ed5c8c737b99be13f36.png" title=" Andres clicks on seleccionar departamento de la lista campo de departamentos" width="1303"/>
+                <img src="548c3f4b6fa9b1ccf28fd7275d00e373b16d751aceebed2af4cec70fa5eb9333.png" title=" Andres clicks on seleccionar departamento de la lista campo de departamentos (completed)" width="1303"/>
+                <img src="548c3f4b6fa9b1ccf28fd7275d00e373b16d751aceebed2af4cec70fa5eb9333.png" title=" Andres clicks on seleccionar campo de texto ciudad" width="1303"/>
+                <img src="58fe2932800eb41c27fac313c2c7c9dae9e084692eb7f7ca823f277ea2776960.png" title=" Andres clicks on seleccionar campo de texto ciudad (completed)" width="1303"/>
+                <img src="58fe2932800eb41c27fac313c2c7c9dae9e084692eb7f7ca823f277ea2776960.png" title=" Andres enters 'MO' into seleccionar campo de texto ciudad" width="1303"/>
+                <img src="3326453c79687206c49a25a22732574fe42152df25e419e2dcdd09f109be71f1.png" title=" Andres enters 'MO' into seleccionar campo de texto ciudad (completed)" width="1303"/>
+                <img src="3326453c79687206c49a25a22732574fe42152df25e419e2dcdd09f109be71f1.png" title=" Andres clicks on seleccionar ciudad de la lista campo de ciudades" width="1303"/>
+                <img src="76e977442e0f36a5cfa7d46279303ddca79631a4103bcd6c8eb68d6665470fde.png" title=" Andres clicks on seleccionar ciudad de la lista campo de ciudades (completed)" width="1303"/>
+                <img src="76e977442e0f36a5cfa7d46279303ddca79631a4103bcd6c8eb68d6665470fde.png" title=" Andres enters '0123' into ingresar codigo CIIU" width="1303"/>
+                <img src="a4ade3de8e8a3989c57fbe4209a767545057d78e0ce8f0e37209f0a2810ef4a6.png" title=" Andres enters '0123' into ingresar codigo CIIU (completed)" width="1303"/>
+                <img src="a4ade3de8e8a3989c57fbe4209a767545057d78e0ce8f0e37209f0a2810ef4a6.png" title=" Andres enters 'Andres' into ingresar el nombre del contacto" width="1303"/>
+                <img src="1c189fb574e03ac797eea6cf7f87c7adb4d6626887082ebbcc4eccd7a6259f2f.png" title=" Andres enters 'Andres' into ingresar el nombre del contacto (completed)" width="1303"/>
+                <img src="1c189fb574e03ac797eea6cf7f87c7adb4d6626887082ebbcc4eccd7a6259f2f.png" title=" Andres enters 'Rodriguez' into ingresar el primer apellido del contacto" width="1303"/>
+                <img src="f0d5904ee13ae784906544923092108af72e4589715726f67a23e374eaa3e31f.png" title=" Andres enters 'Rodriguez' into ingresar el primer apellido del contacto (completed)" width="1303"/>
+                <img src="f0d5904ee13ae784906544923092108af72e4589715726f67a23e374eaa3e31f.png" title=" Andres enters 'Pisa' into ingresar el segundo apellido del contacto" width="1303"/>
+                <img src="c56a5986a41989dccf4147ed8373f81414ee29fb646d70394315862c369c6b9d.png" title=" Andres enters 'Pisa' into ingresar el segundo apellido del contacto (completed)" width="1303"/>
+                <img src="c56a5986a41989dccf4147ed8373f81414ee29fb646d70394315862c369c6b9d.png" title=" Andres enters 'pruebastestAUI017@yopmail.com' into ingresar el correo del contacto" width="1303"/>
+                <img src="af6eb1bccd180e7de1400e789f7ed478e84096c516380ad00e239f3a5c421676.png" title=" Andres enters 'pruebastestAUI017@yopmail.com' into ingresar el correo del contacto (completed)" width="1303"/>
+                <img src="af6eb1bccd180e7de1400e789f7ed478e84096c516380ad00e239f3a5c421676.png" title=" Andres enters '3205689653' into ingresar el telefono del contacto" width="1303"/>
+                <img src="072315854e9e872cf8ec6408e13c4e3848eb05106b40323f99e5d9312be5a24e.png" title=" Andres enters '3205689653' into ingresar el telefono del contacto (completed)" width="1303"/>
+                <img src="072315854e9e872cf8ec6408e13c4e3848eb05106b40323f99e5d9312be5a24e.png" title=" Andres enters '131321' into ingresar la extension del contacto" width="1303"/>
+                <img src="1babbf1b5acb7aaebf4e562561b6003850c9e69faca7fdc20859cca73a8c1153.png" title=" Andres enters '131321' into ingresar la extension del contacto (completed)" width="1303"/>
+                <img src="1babbf1b5acb7aaebf4e562561b6003850c9e69faca7fdc20859cca73a8c1153.png" title=" Andres seleccionar forma desembolso" width="1303"/>
+                <img src="3d7c6ed88ceb9406866338e17880c4b7e7e5b1b0b92e1eac321a92ef8a4b5142.png" title=" Andres clicks on seleccione campo de texto forma de desembolso" width="1303"/>
+                <img src="c04f93dbf040e5ff8d300775bba18cbe2107d9f827c492d97614c86c27063479.png" title=" Andres clicks on seleccione campo de texto forma de desembolso (completed)" width="1303"/>
+                <img src="c04f93dbf040e5ff8d300775bba18cbe2107d9f827c492d97614c86c27063479.png" title=" Andres clicks on seleccione de la lista forma de desembolso cheque" width="1303"/>
+                <img src="4e3b5b089356d1baac0c8d450ccb1214981cf4717bba7c731b6209d5c2ad8bf0.png" title=" Andres clicks on seleccione de la lista forma de desembolso cheque (completed)" width="1303"/>
+                <img src="4e3b5b089356d1baac0c8d450ccb1214981cf4717bba7c731b6209d5c2ad8bf0.png" title=" Andres seleccionar forma desembolso (completed)" width="1303"/>
+                <img src="4e3b5b089356d1baac0c8d450ccb1214981cf4717bba7c731b6209d5c2ad8bf0.png" title=" Andres clicks on boton enviar registro de formulario" width="1303"/>
+                <img src="7805f7c72ecf6978a61154f640f45e0f9a05c3602b1dd4be175501f020d3724b.png" title=" Andres clicks on boton enviar registro de formulario (completed)" width="1303"/>
+                <img src="7805f7c72ecf6978a61154f640f45e0f9a05c3602b1dd4be175501f020d3724b.png" title=" Andres diligenciar formulario agregar proveedor (completed)" width="1303"/>
+                <img src="7805f7c72ecf6978a61154f640f45e0f9a05c3602b1dd4be175501f020d3724b.png" title=" Y diligencie el formulario de agregar proveedor (completed)" width="1303"/>
+                <img src="c5d4fc7ff23f605e20a9882f3821065488839f947747089fba51b4bafbfe8d81.png" title=" Entonces debo poder visualizar la empresa proveedor creada en la grilla de mis proveedores" width="1303"/>
+                <img src="b89bbb04d07d42fab10c0d6e119738daaa149061053977ffc735aa6e430eb958.png" title=" Andres recargar pagina" width="1303"/>
+                <img src="1f97c2ee4d39f62402099ac23017d214d555bdfe095fb32b122d8693928e82d3.png" title=" Andres recargar pagina (completed)" width="1303"/>
+                <img src="33d0bc32f46c0ada009be8a0c484dacd6bb4a1ecb4f50897a51e3db583ab3406.png" title=" Then validacion creacion proveedor should be 'pruebastestAUI017@yopmail.com'" width="1303"/>
+                <img src="33d0bc32f46c0ada009be8a0c484dacd6bb4a1ecb4f50897a51e3db583ab3406.png" title=" Then validacion creacion proveedor should be 'pruebastestAUI017@yopmail.com' (completed)" width="1303"/>
+                <img src="33d0bc32f46c0ada009be8a0c484dacd6bb4a1ecb4f50897a51e3db583ab3406.png" title=" Entonces debo poder visualizar la empresa proveedor creada en la grilla de mis proveedores (completed)" width="1303"/>
+                <img src="13ca6634df87ff10214163867e1075b0d91583cf1902c7441fec110403b3e3dd.png" title=" Andres cerrar sesion" width="1303"/>
+                <img src="13ca6634df87ff10214163867e1075b0d91583cf1902c7441fec110403b3e3dd.png" title=" Andres clicks on boton opciones del usuario autenticado" width="1303"/>
+                <img src="13ca6634df87ff10214163867e1075b0d91583cf1902c7441fec110403b3e3dd.png" title=" Andres clicks on boton cerrar sesion" width="1303"/>
+                <img src="05c444efe4421a35b1494095bdaf7f023d745f54528be057a5646774b4e1c917.png" title=" Andres clicks on boton cerrar sesion (completed)" width="1303"/>
+                <img src="05c444efe4421a35b1494095bdaf7f023d745f54528be057a5646774b4e1c917.png" title=" Andres cerrar sesion (completed): <span class='success-color'>SUCCESS</span>" width="1303"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
