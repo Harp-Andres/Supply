@@ -3,8 +3,6 @@ package co.com.bancodeoccidente.supplyfactor.interactions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
-
-import static co.com.bancodeoccidente.supplyfactor.userinterfaces.FormularioAgregarProveedor.*;
 import static co.com.bancodeoccidente.supplyfactor.userinterfaces.ProveedoresVerTodos.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
